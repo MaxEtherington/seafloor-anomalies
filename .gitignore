@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Extensive (raw) data
+data/Clennet*
+
+# Output data
+data/output_grids*
+data/subducted*
