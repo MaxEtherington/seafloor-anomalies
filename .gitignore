@@ -84,6 +84,10 @@ ipython_config.py
 # pyenv
 .python-version
 
+# System
+.DS_Store
+Thumbs.db
+
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
@@ -130,6 +134,7 @@ dmypy.json
 
 # Extensive (raw) data
 data/Clennet*
+data/reconstructions/*
 
 # Output data
 data/output_grids*
